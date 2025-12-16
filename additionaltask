@@ -1,0 +1,50 @@
+<html>
+
+<head>
+
+<title>Wing Home</title>
+</head>
+
+<body>
+<div style="text-align:center">
+    <h1>Welcome to Wing</h1><p></p>
+    <h2>Login Page</h2>
+username<input id="username" placeholder="text only"><br>
+password<input id="pass" placeholder="Numbers only"><br>
+<button onclick="valid()">Submit</button>
+<button onclick="reset()">Reset</button>
+
+</div>
+
+<script>
+function valid()
+{
+    var username = document.getElementById("username").value;
+    var pass = document.getElementById("pass").value;
+
+    if(username !=="" && pass !== "")
+    {
+
+        alert("validation successfull");
+    }
+    else{
+        alert("values not blank, enter values");
+
+    }
+
+    function reset()
+    {
+        document.getElementById("username").value = "";
+        document.getElementById("pass").value= "";
+        
+    }
+
+}
+</script>
+
+
+
+
+</body>
+
+</html>
