@@ -1,0 +1,5 @@
+this is my devops practise file.
+
+here i will note some basic commands .
+check out further
+
